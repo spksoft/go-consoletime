@@ -23,6 +23,11 @@ func Log(name string) {
 	}
 }
 
+func hasLog(name string) bool {
+	_, ok := ct.loggedTime[name]
+	return ok
+}
+
 func init() {
 	ct = new()
 }

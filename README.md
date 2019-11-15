@@ -1,4 +1,6 @@
 # go-consoletime
+[![Actions Status](https://github.com/spksoft/go-consoletime/workflows/Go/badge.svg)](https://github.com/spksoft/go-consoletime/actions)
+
 consoletime is a golang small package for log any execute time of each code stagement
 
 ## Install
